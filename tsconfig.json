@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/AUTH-MODLE/register.tsx", "src/components/AUTH-MODLE/register.tsx", "src/app/(pages)/enroll/page.jsx", "src/components/ADMIN-MODEL/GetAllEntrollments.tsx", "src/components/ADMIN-MODEL/AccountSettings.jsx", "src/components/User-MODLE/account.jsx", "src/components/Testimoinal-Youtube_fram_Swipper/Testimoinal-Youtube_fram_Swipper.jsx", "src/components/Courses/Courses_Programs.tsx"],
+  "exclude": ["node_modules"]
+}
