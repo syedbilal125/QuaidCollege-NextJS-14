@@ -64,7 +64,7 @@ export default function NavMobile() {
               <IoLogoLinkedin size={17} />
             </a>
             <a
-              href="https://wa.me/923044642555"
+              href="#"
               className="p-2 bg-[#476974] rounded-full hover:scale-110 duration-500"
             >
               <FaWhatsapp size={17} />
