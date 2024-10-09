@@ -51,7 +51,7 @@ export default function NavMobile() {
           </div>
           <div className="flex items-center gap-3 pt-5">
             <a
-              href="https://www.facebook.com/QuaidCollegeNetwork/"
+              href="#"
               target="_blank"
               className="p-2 bg-[#476974] rounded-full hover:scale-110 duration-500"
             >
